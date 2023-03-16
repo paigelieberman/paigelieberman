@@ -19,7 +19,7 @@ function setup() {
 }
 
 function draw() {
-  frameRate(2);
+  frameRate(4);
 {
     if (
     mouseX > windowWidth/2
