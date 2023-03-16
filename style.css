@@ -112,3 +112,14 @@ div.welcome {
   align-items: center;
   height: 100%;
  }
+ul.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a.l1:hover{
+  color: pink;
+}
+a.l2:hover{
+  color: pink;
+}
