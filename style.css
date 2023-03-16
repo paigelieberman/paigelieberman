@@ -1,8 +1,15 @@
-body {
+body, html {
   font-family: "Source Code Pro", monospace;
+  height: 100%
 }
 
-
+div.wrap{
+  height: 100%;
+  overflow: hidden;
+}
+body{
+  overflow: hidden;
+}
 
 ul {
   list-style-type: none;
