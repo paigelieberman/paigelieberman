@@ -8,6 +8,7 @@ function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
 
+
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent("canvas");
