@@ -1,3 +1,5 @@
+
+
 var canvas;
 let circleDi=200;
 
@@ -13,7 +15,7 @@ function setup() {
   canvas.style('z-index', '-1');
   strokeWeight(10);
   stroke('pink');
-  background(255);
+  background(0);
   fill(255,184,236);
   circle(windowWidth/2, windowHeight/2, 200);
 }
