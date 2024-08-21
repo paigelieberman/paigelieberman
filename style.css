@@ -1,38 +1,43 @@
 body.index, html {
-  font-family: "Source Code Pro", monospace;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
   height: 100%;
+  overflow-x: hidden;
  
 }
 
-div.wrap{
-  height: 100%;
-  overflow: hidden;
+#Home{
+  font-size: xx-large;
 }
-body.index{
-  overflow: hidden;
-}
-ul.navbar {
-  list-style-type: none;
-  margin: 0;
+
+.navbar {
+  list-style: none;
   padding: 0;
-  overflow: hidden;
-  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
 }
 
-li {
-  float: left;
+.navbar li {
+  display: inline;
 }
 
-li a {
-  display: block;
-  color: black
-  text-align: center;
-  padding: 14px 16px;
+.navbar a {
+  color: rgb(237, 123, 182);
   text-decoration: none;
+  padding: 14px 20px;
+  display: block;
 }
 
-li a:hover {
-  background-color: white;
+.navbar a:hover {
+  color: white;
+}
+
+.right-side {
+  display: flex;
 }
 
  #photos {
@@ -107,11 +112,17 @@ li a:hover {
 
 div.welcome {
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+
+text-align: center;
+ 
+margin-top: 14%;
+margin-left: 40%;
+max-width: 20%;
+padding: auto;
+
  }
+
+
 
  ul.list {
   list-style-type: none;
@@ -125,5 +136,113 @@ a.l2:hover{
   color: pink;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
 
+.flex-item {
+  position: relative;
+  flex: 1;
+  max-width: 500px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover img {
+  opacity: 0.5; /* Darken the image on hover */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.image-container:hover .overlay {
+  opacity: 1; /* Show the overlay on hover */
+}
+
+
+@media (max-width: 600px) {
+  .navbar a {
+      padding: 10px;
+  }
+
+  .flex-item {
+      flex: 1 1 calc(100% - 40px);
+  }
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.padding-small { padding: 20px; }
+        .padding-medium { padding: 30px; }
+        .padding-large { padding: 50px; }
+
+
+        .grid-container {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+          gap: 20px;
+          padding: 20px;
+      }
+      
+      .grid-item {
+          padding: 10px;
+          text-align: center;
+      }
+      
+      video, img {
+          width: 100%;
+          height: auto;
+          display: block;
+      }
+
+      .title {
+        margin-top: 10px;
+        color: white;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    a {
+      color: rgb(233, 124, 179); /* Normal link color */
+      text-decoration: none; /* Removes underline from links */
+  }
+  
+
+  
+  a:hover {
+      color: white; /* Link color after it has been visited */
+  }
+  
+  a:active {
+      color: rgb(233, 124, 179); /* Link color when it's clicked */
+  }
   
