@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>paige lieberman</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+ 
+  </head>
+  <body class="index">
+    <div class="wrap">
+
+    <ul class="navbar">
+      <li><a  id="Home" style="float:left" href="home.html">PAIGE LIEBERMAN</a></li>
+      <div class="right-side">
+  <li><a id="About" href="index.html">About</a></li>
+
+  </div>
+  
+    </ul>
+<div id="canvas">
+  
+  <div class="welcome"><p>Hi! I'm Paige Lieberman, a student at
+    Northeastern University 
+    majoring in Interaction Design and minoring in Computer Science. 
+    I'm interested in learning about and gaining more experience in user expeience design, brand design, photography, and creative coding.
+  </p>
+  <p> <a href="Resume.docx (1).pdf">Resume     &&    </a> <a href="https://www.linkedin.com/in/paige-lieberman-62bb9a1b3/">Linkedin</a>
+</div>
+
+</div>
+</div>
+  </body>
+</html>
